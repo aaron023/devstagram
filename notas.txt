@@ -1,0 +1,21 @@
+Entrar a powershell
+
+Para que funcione se deben de detener los servicios de 
+MySQL80
+Apache2.4
+
+escribir wsl
+escribir cd Documents/devstagram
+
+Para Iniciar el servidor
+escribir ./vendor/bin/sail up
+o como se generó u alias se puede también con
+escribir sail up
+
+Para Detener el servidor
+escribir .vendor/bin/sail down
+o como se generó u alias se puede también con
+escribir sail down
+
+Ejecutar para compilar
+npm run dev 
